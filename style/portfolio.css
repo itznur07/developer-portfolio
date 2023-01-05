@@ -36,7 +36,11 @@ body {
   color: #181818;
 }
 
-.navbar .nav-logo::first-letter {
+.navbar .nav-logo {
+  color: #181818;
+}
+
+.navbar .nav-logo span {
   color: #fd6e0a;
 }
 
@@ -297,6 +301,79 @@ body {
 .my-resume-dwl {
   margin-top: 50px;
   margin-left: 500px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* Footer Section Design */
+
+footer {
+  margin-top: 113px;
+  background: #fff8f3;
+}
+
+.footer-content {
+  display: flex;
+  padding: 130px 0px;
+  margin-top: 130px;
+}
+
+/* footer left design */
+
+.footer-content-left-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+
+.footer-content-left-desc {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+
+.footer-content-left-social {
+  margin-top: 30px;
+}
+.footer-content-left-social > i {
+  margin-right: 24px;
+}
+
+/* footer right side design */
+
+.footer-content-right {
+  margin-left: 130px;
+}
+
+.footer-content-right-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.footer-content-right-input {
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  margin-top: 24px;
+}
+.footer-content-right-textarea {
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  margin-top: 24px;
+}
+
+.footer-content-right-btn {
+  margin-top: 24px;
   padding: 15px 25px;
   border-radius: 5px;
   background-color: #fd6e0a;
