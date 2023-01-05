@@ -6,3 +6,53 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Navbar style */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.navbar .nav-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.navbar .nav-logo::first-letter {
+  color: #fd6e0a;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link li {
+  margin-left: 68px;
+  list-style: none;
+}
+
+.nav-link li:last-child a {
+  padding: 15px 10px;
+  background-color: #fd6e0a;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #181818;
+}
