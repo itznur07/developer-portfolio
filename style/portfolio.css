@@ -74,22 +74,16 @@ body {
 
 /* Banner Left side */
 .banner-left-info-title {
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 45px;
   color: #474747;
 }
 .banner-left-info-name {
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 85px;
   color: #181818;
 }
 .banner-left-info-desc {
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   color: #757575;
@@ -103,8 +97,6 @@ body {
   background-color: #fd6e0a;
   outline: none;
   border: none;
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -114,5 +106,52 @@ body {
 
 /* Banner right side */
 
-.banner-right .img {
+/* About ME Section Design */
+
+.about {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #fff8f3;
+  padding: 100px 0px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+
+.about-detail {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+  margin-top: 30px;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about-info > div {
+  margin-left: 50px;
+}
+
+.about-info > div h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+
+.about-info > div p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
 }
